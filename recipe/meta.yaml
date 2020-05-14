@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - ophyd
+    - ophyd=1.3.3
     - pyfai
     - databroker=0.13.0
     - bluesky
