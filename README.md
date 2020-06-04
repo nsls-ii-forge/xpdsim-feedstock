@@ -7,7 +7,7 @@ Package license:
 
 Feedstock license: BSD 3-Clause
 
-Summary: 
+Summary: Simulator objects for bluesky and ophyd
 
 
 

@@ -1,13 +1,13 @@
 {% set version = "0.4.0" %}
+{% set sha256 = "6b69e8d478a09e503c67f7235c77bef3c0ed3481dadb7dda0ad24c33599a5f1a" %}
 
 package:
   name: xpdsim
   version: {{ version }}
 
 source:
-  git_url: https://github.com/xpdAcq/xpdSim.git
-  git_rev: {{ version }}
-  git_depth: -1
+  url: https://github.com/xpdAcq/xpdSim/releases/download/{{ version }}/xpdSim-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   noarch: python
@@ -32,3 +32,4 @@ test:
 about:
   home: http://xpdacq.github.io/xpdSim/
   license_file: LICENSE
+  summary: Simulator objects for bluesky and ophyd
