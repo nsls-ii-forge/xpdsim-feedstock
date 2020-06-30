@@ -1,9 +1,9 @@
 About xpdsim
 ============
 
-Home: http://xpdacq.github.io/xpdSim/
+Home: http://xpdacq.github.io
 
-Package license: 
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
